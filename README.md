@@ -22,3 +22,12 @@ Day9: [Middle of Linked List](day_9.py)
 #
 Day10: [Backspace String Compare](day_10.py)
 #
+Day11: [Min Stack](day_11.py)
+#
+Day12: [Diameter of Binary tree](day_12.py)
+#
+Day13: [Last Stone Weight](day_13.py)
+#
+Day14: [Contiguous Array](day_14.py)
+#
+Day15: [Perform String Shift](day_15.py)
