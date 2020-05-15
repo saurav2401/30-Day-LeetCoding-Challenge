@@ -1,14 +1,32 @@
+'''
+Problem Statement:
+Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+
+Example:
+
+Input:  [1,2,3,4]
+Output: [24,12,8,6]
+Constraint: It's guaranteed that the product of the elements of any prefix or suffix of the array (including the whole array) fits in a 32 bit integer.
+
+Note: Please solve it without division and in O(n).
+
+Follow up:
+Could you solve it with constant space complexity? (The output array does not count as extra space for the purpose of space complexity analysis.)
+'''
+# Solution:
+
 class Solution:
-    def stringShift(self, s: str, shift: List[List[int]]) -> str:
-        final = 0
-        n = len(shift)
-        for i in range(n):
-            if shift[i][0] == 0:
-                final -= shift[i][1]
-            if shift[i][0] == 1:
-                final += shift[i][1]
-        final %= n
-            
-        if final == 0:
-            return s
-        return s[-final:] + s[:-final]
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+
+        size = len(nums)
+        l = [1] * size
+        r = [1] * size 
+        for i in range(size - 1):
+            l[i+1] = l[i] * nums[i]
+    
+        for i in range(size - 1, 0, -1):
+            r[i - 1] = r[i] * nums[i]
+
+        for i in range(size):
+            l[i] *= r[i]
+        return l
