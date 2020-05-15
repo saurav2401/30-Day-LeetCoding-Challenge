@@ -31,3 +31,15 @@ Day13: [Contiguous Array](week2/day_13.py)
 Day14: [Perform String Shift](week2/day_14.py)
 #
 Day15: [Product of Array Except Self](week3/day_15.py)
+#
+Day16: [Valid Parenthesis String](week3/day_16.py)
+#
+Day17: [Number of Islands](week3/day_17.py)
+#
+Day18: [Minimum Path Sum](week3/day_18.py)
+#
+Day19: [Search in Rotated Sorted Array](week3/day_19.py)
+#
+Day20: [Construct Binary Search Tree from Preorder Traversal](week3/day_20.py)
+#
+Day21: [Leftmost Column with at Least a One](week3/day_21.py)
