@@ -43,3 +43,21 @@ Day19: [Search in Rotated Sorted Array](week3/day_19.py)
 Day20: [Construct Binary Search Tree from Preorder Traversal](week3/day_20.py)
 #
 Day21: [Leftmost Column with at Least a One](week3/day_21.py)
+#
+Day22: [Subarray Sum Equals K](week4/day_22.py)
+#
+Day23: [Bitwise AND of Numbers Range](week4/day_23.py)
+#
+Day24: [LRU Cache](week4/day_24.py)
+#
+Day25: [Jump Game](week4/day_25.py)
+#
+Day26: [Longest Common Subsequence](week4/day_26.py)
+#
+Day27: [Maximal Square](week4/day_27.py)
+#
+Day28: [First Unique Number](week4/day_28.py)
+#
+Day29: [Binary Tree Maximum Path Sum](week5/day_29.py)
+#
+Day30: [First Unique Number](week5/day_30.py)
