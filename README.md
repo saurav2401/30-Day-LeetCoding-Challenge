@@ -60,4 +60,4 @@ Day28: [First Unique Number](week4/day_28.py)
 #
 Day29: [Binary Tree Maximum Path Sum](week5/day_29.py)
 #
-Day30: [First Unique Number](week5/day_30.py)
+Day30: [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](week5/day_30.py)
